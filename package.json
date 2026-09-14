@@ -12,7 +12,7 @@
     "verify": "node scripts/ci-verify.mjs"
   },
   "devDependencies": {
-    "@linkdesk/plugin-sdk": "^0.1.14",
+    "@linkdesk/plugin-sdk": "^0.1.19",
     "jsonc-parser": "^3.3.1"
   }
 }
