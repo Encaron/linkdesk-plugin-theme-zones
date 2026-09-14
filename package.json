@@ -8,9 +8,11 @@
     "build": "linkdesk-plugin-sdk pack",
     "validate": "linkdesk-plugin-sdk validate",
     "lint": "linkdesk-plugin-sdk lint",
-    "publish": "linkdesk-plugin-sdk publish"
+    "publish": "linkdesk-plugin-sdk publish",
+    "verify": "node scripts/ci-verify.mjs"
   },
   "devDependencies": {
-    "@linkdesk/plugin-sdk": "^0.1.14"
+    "@linkdesk/plugin-sdk": "^0.1.14",
+    "jsonc-parser": "^3.3.1"
   }
 }
