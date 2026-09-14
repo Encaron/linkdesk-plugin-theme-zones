@@ -1,0 +1,28 @@
+{
+  "version": "1",
+  "updatedAt": "2026-09-14T02:37:46.280Z",
+  "plugins": [
+    {
+      "id": "theme-zones",
+      "name": "分区纹理示例主题",
+      "version": "1.0.2",
+      "description": "per-surface 背景机制示例主题——⑬ 纸纹分区（surface.texture 平铺纹理）+ ⑭ 影像分区（background.mode:zones 连续切片），#50.28-#50.31 壳机制第一个真实消费者",
+      "author": {
+        "name": "LinkDesk"
+      },
+      "icon": "resources/icon.svg",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-zones/v1.0.2/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.2/theme-zones.linkdesk-plugin",
+      "size": 6047,
+      "publishedAt": "2026-09-14T02:37:46.280Z",
+      "versions": [
+        {
+          "version": "1.0.2",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.2/theme-zones.linkdesk-plugin",
+          "publishedAt": "2026-09-14T02:37:46.280Z",
+          "changelog": "- 源码迁入独立仓（E6#99，L7 第 7.2 轮）——从壳仓 `Encaron/linkdesk` 抽出本插件子树，历史全保（hash 变）\n- 随包 `plugin.json` 显式声明 `pluginId`（E6#98g）：插件身份不再靠目录名兜底，独立仓构建出的包名与身份稳定\n- `$schema` 改指本仓 `node_modules/@linkdesk/plugin-sdk`（脱离壳仓后原相对路径指到仓外，编辑器补全/校验会失效）"
+        }
+      ]
+    }
+  ]
+}
