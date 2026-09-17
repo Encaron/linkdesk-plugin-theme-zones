@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-14T17:30:38.833Z",
+  "updatedAt": "2026-09-17T16:23:02.520Z",
   "plugins": [
     {
       "id": "theme-zones",
       "name": "分区纹理示例主题",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "per-surface 背景机制示例主题——⑬ 纸纹分区（surface.texture 平铺纹理）+ ⑭ 影像分区（background.mode:zones 连续切片），#50.28-#50.31 壳机制第一个真实消费者",
       "author": {
         "name": "LinkDesk"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-zones/v1.0.3/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-zones/v1.0.4/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-zones/v1.0.3/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.3/theme-zones.linkdesk-plugin",
-      "size": 7325,
-      "publishedAt": "2026-09-14T17:30:38.833Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-theme-zones/v1.0.4/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.4/theme-zones.linkdesk-plugin",
+      "size": 7930,
+      "publishedAt": "2026-09-17T16:23:02.520Z",
       "versions": [
+        {
+          "version": "1.0.4",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.4/theme-zones.linkdesk-plugin",
+          "publishedAt": "2026-09-17T16:23:02.520Z",
+          "changelog": "- **E6#111n-6 外观族 id 带归属**（本轴「非样式命名空间归一化」清账 · 主题族）——本仓名额全在下面；**词干一字未动**，只加了「<插件 id>.」归属前缀：\n- 配方 id `paper-zones` → `theme-zones.paper-zones`\n- 配方 id `image-zones` → `theme-zones.image-zones`\n- 配色 id `image` → `theme-zones.image`\n- 配色 id `kraft` → `theme-zones.kraft`\n- 🔴 **显示名（`label` / `name`）一字未动** —— 设置页看到的主题名与配色名**没有变化**；主题的颜色 / 玻璃 / 字体等一切外观内容也**一字未动**（这是「改名 ≠ 改样子」的机械保证）。\n- **旧 id 不会被丢**：壳侧读时归一（`normalizeRecipeId` / `normalizeColorwayId` / `normalizeIconThemeId`，**解析器门控**＝新名在册且旧名不在册才映）＋ 配置迁移**版本 12** 把盘上的旧值改写掉；用户已选的主题 / 配色 / 图标主题在升级后**照旧生效**（含「插件比壳晚到」的顺序，两问门控保证任一时刻都只有一种解释成立）。"
+        },
         {
           "version": "1.0.3",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-theme-zones/releases/download/v1.0.3/theme-zones.linkdesk-plugin",
